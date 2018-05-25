@@ -1,4 +1,4 @@
-# Design
+# Firestore Design
 
 /account
 
