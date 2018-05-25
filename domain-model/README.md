@@ -1,6 +1,7 @@
 # Design
 
 /account
+
     {
         UUID
         name
@@ -12,11 +13,15 @@
         deleted on/by
     }
 
+
 /account_subscription
+
     {
         do we even need to keep track of this or would it just be related to the account UUID in Stripe (or whatever)
     }
+
 /teams
+
     {
         UUID
         name
@@ -51,6 +56,7 @@
     }
 
 /users
+
     {
         UUID
         whatever firebase has (we should own this data though... don't use Slack's account/user structure for example)
@@ -70,6 +76,7 @@
     }
 
 /checkin
+
     {
         teamUUID__DATE {
             [
