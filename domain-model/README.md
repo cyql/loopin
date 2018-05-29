@@ -27,7 +27,7 @@
         name
         default_timezone
         default_check_in_time
-        collection_days (M,T,W,R,F,S,Su)
+        collection_days (M,T,W,R,F,S,U)
         members {
             references to /users/UUID (?)
         }
