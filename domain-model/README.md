@@ -5,8 +5,8 @@
     {
         UUID
         name
-        teams {}
-        users {}
+        teams {}+
+        users {}+
         owner {}+
         created on/by
         updated on/by
@@ -30,7 +30,7 @@
         collection_days (M,T,W,R,F,S,U)
         members {
             references to /users/UUID (?)
-        }
+        }+
         questions {
             previous (`What did you accomplish %{previous_period}?`)
             next (`What are your goals for %{next_period}?`)
@@ -41,10 +41,10 @@
         show_report_graphs
         admins {
             references to /users/UUID
-        }
+        }+
         observers {
             references to /users/UUID
-        }
+        }+
         notifications {
             reminder_time
             summary_time
