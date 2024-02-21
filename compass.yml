@@ -3,7 +3,7 @@ id: ari:cloud:compass:86574312-912a-4d9e-9ce4-3bf554fbdd9a:component/59f45847-f6
 description: Automated team status check-in
 configVersion: 1
 typeId: SERVICE
-ownerId: null
+ownerId: a18798d2-29dd-4379-ace1-cd5d4128abde
 fields:
   tier: 4
 links:
