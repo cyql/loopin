@@ -1,0 +1,18 @@
+name: loopin
+id: ari:cloud:compass:86574312-912a-4d9e-9ce4-3bf554fbdd9a:component/59f45847-f664-4787-b7f9-d248ad2c8ca6/3148e814-d22d-4066-abc7-b21a7ea90367
+description: Automated team status check-in
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/cyql/loopin
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:javascript
+  - source:github
+customFields: null
